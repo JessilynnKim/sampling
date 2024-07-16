@@ -10,10 +10,33 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Jessilynn Kim
 
 ```
-Please write your explanation here...
+Sampling Stages 
+Infected Individuals: np.random.choice - randomly selecting a subset of people to be infected
+- Sample size: int(len(ppl)*ATTACK_RATE); 10% of total population to be infected
+- Sampling frame: indices of 'ppl' DataFrame 
+- Underlying distribution: uniform random sampling
+
+Primary Traced Individuals: np.random.rand - deciding which infected individuals will be traced 
+- Sample size: sum(ppl['infected'])
+- Sampling frame: subset of 'ppl' DataFrame - number of infected individuals
+- Underlying distribution: uniform random sampling to determine if a traced event occurs (TRACE_SUCESS probability)
+
+Secondary Tracing: ppl['event'].value_counts() - secondary tracing based on the number of traced cases at an event 
+- Sample size: count of events where traced >= SECONDARY_TRACE_THRESHOLD
+- Sampling frame: subset of 'ppl' DataFrame - only those events where the number of traced cases meets or exceeds the threshold
+- Underlying distribution: Deterministic selection based on counts 
+
+'whitby_covid_tracing.py' result does not reproduce the graphs from the original post.
+
+Number of Repetitions Modified to 1000:
+- With the lower number of repetition, histogram shows more variability
+
+Altering Code for Reproducibility: whitby_covid_tracing.py file updated
+- Setting random seed for reproducibility before simulate_event function is called
+- Define simulate_event with constant parameter
 
 ```
 

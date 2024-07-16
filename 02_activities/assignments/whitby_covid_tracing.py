@@ -17,7 +17,10 @@ ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
 
-def simulate_event(m):
+# Set the random seed for reproducibility - moved before simulate_event 
+np.random.seed(10)
+
+def simulate_event(wedding_count=200, brunch_count=800, attack_rate=ATTACK_RATE, trace_success=TRACE_SUCCESS, secondary_trace_threshold=SECONDARY_TRACE_THRESHOLD):
   """
   Simulates the infection and tracing process for a series of events.
   
@@ -67,11 +70,10 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Set the random seed for reproducibility
-np.random.seed(10)
+
 
 # Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
+results = [simulate_event(m) for m in range(5000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
