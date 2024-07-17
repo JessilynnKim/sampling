@@ -16,30 +16,35 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to determine key contributing factors to high turnover rate, specifically among entry- and lower-level employees. It is also to identify the changes that can be done to improve employee satisfaction and retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: entry and lower-level employees within all departments at the company (current and recently departed)
+Sampling frame: List of all entry- and lower-level employees and their employement status, department and contact information (current and recently departed)
+Sampling units: Individuals who are in entry- or lower-level positions (current and recently departed)
+Observational units: Employees' responses to the survey 
+Sampling Strategy: stratified random sampling - divided into strata based on department and employment status at which random sample will be determined. This is to ensure all departments and employment statuses are represented 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+If you have recently departed from the company, please refer to your last role at this company as your "current" role. 
+1. How satisfied are you with your current role? 
+2. Please describe main challenges or frustrations you have encountered in your role. 
+3. Do you feel your current salary and benefits package in comparison to industry standards?
+4. Do you believe there are enough opportunities for career advancement in your role?
+5. How supportive have your manager/supervisor in your development?
+6. How likely are you to consider leaving your current job within next 6 months? 
+7. What changes would you suggest to make your job more satisfying or to improve your work environment?
+8. Any additional comment would you like to share? 
+
 ```
 
 ## Rubric
