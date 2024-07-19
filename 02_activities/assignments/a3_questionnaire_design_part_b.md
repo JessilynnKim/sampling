@@ -4,19 +4,23 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    Quality of sample is good as it represents employees holding entry and lower-level positions from different department including both current and recently departed. However, with recently departed, it may not be representative of various departments as well as random sampling for two reasons. 1) sample size might not be wide enough to be random and 2) recently departed may not be representative of all departments 
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+    Yes, I'd like to make changes to original survey 
+    Reviesed Survey: https://vscode.dev/github/JessilynnKim/sampling/blob/questionnaire-b/02_activities/assignments/Questionnaire-Updated%20for%20Part%20B.md
+
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+    Potentially but highly limited. Observing employees during work activities, meetings and interactions may reveal surface level insights but underlying issues and reasons may not be observed. Employees also may not showcase any concerns or challenges during observation. This lacks anonymity. This is also dependent on observer's interpretation and may introduce bias. 
+
+    Also, it will be impossible to do observational study on employees who have recently departed. 
     ```
 
 ## Why am I doing this assignment?
