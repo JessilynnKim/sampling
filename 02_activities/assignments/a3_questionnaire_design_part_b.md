@@ -11,13 +11,16 @@
 
     ```
     Yes, I'd like to make changes to original survey 
-    Reviesed Survey: 
+    Reviesed Survey: https://vscode.dev/github/JessilynnKim/sampling/blob/questionnaire-b/02_activities/assignments/Questionnaire-Updated%20for%20Part%20B.md
+
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    Potentially but highly limited. Observing employees during work activities, meetings and interactions may reveal 
+    Potentially but highly limited. Observing employees during work activities, meetings and interactions may reveal surface level insights but underlying issues and reasons may not be observed. Employees also may not showcase any concerns or challenges during observation. This lacks anonymity. This is also dependent on observer's interpretation and may introduce bias. 
+
+    Also, it will be impossible to do observational study on employees who have recently departed. 
     ```
 
 ## Why am I doing this assignment?
